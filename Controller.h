@@ -4,8 +4,8 @@
 #include <wx/wx.h>
 #endif
 
-#include "TicTacGUI.h"
-#include "Environment.h"
+#include "GUI/TicTacGUI.h"
+#include "Model/Environment.h"
 #define GAMES_PER_REPLAY 512 // games played before a new history replay is done
 #define TOTAL_EPISODES_NO 350000 // total number of episodes
 #define LR_STEP 50000 // number of episodes before decaying learning rate

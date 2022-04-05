@@ -144,22 +144,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Agent.h" />
     <ClInclude Include="..\Controller.h" />
-    <ClInclude Include="..\Environment.h" />
     <ClInclude Include="..\framework.h" />
+    <ClInclude Include="..\GUI\TicTacGUI.h" />
+    <ClInclude Include="..\Model\Agent.h" />
+    <ClInclude Include="..\Model\Environment.h" />
     <ClInclude Include="..\NN\FC.h" />
     <ClInclude Include="..\NN\Net.h" />
     <ClInclude Include="..\Resource.h" />
-    <ClInclude Include="..\TicTacGUI.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Agent.cpp" />
     <ClCompile Include="..\Controller.cpp" />
-    <ClCompile Include="..\Environment.cpp" />
+    <ClCompile Include="..\GUI\TicTacGUI.cpp" />
+    <ClCompile Include="..\Model\Agent.cpp" />
+    <ClCompile Include="..\Model\Environment.cpp" />
     <ClCompile Include="..\NN\FC.cpp" />
     <ClCompile Include="..\NN\Net.cpp" />
-    <ClCompile Include="..\TicTacGUI.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

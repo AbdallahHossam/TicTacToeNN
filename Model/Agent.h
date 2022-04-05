@@ -7,7 +7,7 @@
 #include <sstream>
 #include <string>
 
-#include "NN/Net.h"
+#include "../NN/Net.h"
 
 
 

@@ -18,7 +18,6 @@ Agent::Agent()
 	curState = 0;
 	markType = 1;
 	discount = 0.9;
-	step_size = 0.2;
 	epsilon = 0.0; // orignally 0.1 (while training)
 }
 // returns set of valid actions
