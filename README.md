@@ -3,6 +3,8 @@
 A desktop application that implements the classic Tic-Tac-Toe game.
 The application includes implementation of a reinforcement learning agent that learns to play the game optimally.
 
+This application is implemented using C++ in an OOP framework.
+
 ## Reinforcement Learning Agent
 
 The reinforcement learning agent uses after value function approximation. A 3 layer neural network is used to approximate the after value function. 
@@ -14,8 +16,6 @@ An Adam optimizer is used and optimization is performed on minibatches of return
 
 
 ## Running the application
-
-This application is implemented using C++ in an OOP framework.
 
 ### To build the code, two libraries are required:
 
