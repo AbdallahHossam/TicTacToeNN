@@ -29,20 +29,7 @@ Environment::Environment()
 	state = 0;
 	Board = std::vector<short>(9, 0);
 }
-/*
-int Environment::AIMove(int curState,float reward)
-{
-	return Bot.playNextMove(curState, reward);
-}*/
-/*void Environment::updateAI(int newState, float reward) // After its own move
-{
-	Bot.Update_field(newState, reward);
-}*/
-/*
-void Environment::finalUpdateAI(float reward)
-{
-	Bot.end_Update(reward);
-}*/
+
 int Environment::Board_Move(short position, int markType)
 {
 	if (Board[position] == 0) // empty

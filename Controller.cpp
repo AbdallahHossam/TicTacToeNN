@@ -32,12 +32,8 @@ void Controller::TrainButtonHandler(wxCommandEvent& event)// without agent being
 	AI1.resetState();
 	AI2.resetState();
 	env.resetBoard();
-	//AI1.resetHistory();
-	//AI2.resetHistory();
 	AI1.loadValues("X_Training.csv");
 	AI2.loadValues("O_Training.csv");
-	//AI1.resetNN();
-	//AI2.resetNN();
 	AI1.setEps(0.1);
 	AI2.setEps(0.1);
 
@@ -69,8 +65,6 @@ void Controller::TrainButtonHandler(wxCommandEvent& event)// without agent being
 				AI1.setLearningRate(AI1.getLearningRate() / 2);
 				AI2.setLearningRate(AI2.getLearningRate() / 2);
 				rate_counter = 0;
-//				AI1.resetHistory();
-//				AI2.resetHistory();
 			}
 		}
 
@@ -88,7 +82,6 @@ void Controller::TrainButtonHandler(wxCommandEvent& event)// without agent being
 				AI1.apply_MC();
 				AI2.apply_MC();
 				gameOver = 1;
-			//	gameCounter++;
 			}
 			else if (moveResult == 0) // Valid move but no one won
 			{
@@ -117,7 +110,6 @@ void Controller::TrainButtonHandler(wxCommandEvent& event)// without agent being
 				AI2.add_MC_step(curState, 1);
 				AI1.apply_MC();
 				AI2.apply_MC();
-			//	gameCounter++;
 				gameOver = 1;
 			}
 			else if (moveResult == 0) // Valid move but no one won
