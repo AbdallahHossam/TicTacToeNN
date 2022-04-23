@@ -1,5 +1,10 @@
 # Tic-Tac-Toe Game with AI
 
+<p align="center">
+  <img src="./Images/TicTacToe.gif" width="50%">   
+</p>
+<p align="center">Example with AI playing as O and human player playing as X.</p>
+
 A desktop application that implements the classic Tic-Tac-Toe game.
 The application includes implementation of a reinforcement learning agent that learns to play the game optimally.
 
