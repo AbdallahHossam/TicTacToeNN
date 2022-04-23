@@ -22,6 +22,10 @@ An Adam optimizer is used and optimization is performed on minibatches of return
 
 ## Running the application
 
+### Windows Executable ready to run:
+
+Use this link to download a ready to run executable built for Windows 10:  [Link](https://drive.google.com/drive/folders/126t2utXS0nKdi99TEh8VCHq7UrLMnhlR?usp=sharing) 
+
 ### To build the code, two libraries are required:
 
 1- The wxwidgets library is required to generate the game frame (https://www.wxwidgets.org/). The application was built using wxwidgets-3.1.5.
