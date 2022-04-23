@@ -145,13 +145,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\Controller.h" />
-    <ClInclude Include="..\framework.h" />
     <ClInclude Include="..\GUI\TicTacGUI.h" />
     <ClInclude Include="..\Model\Agent.h" />
     <ClInclude Include="..\Model\Environment.h" />
     <ClInclude Include="..\NN\FC.h" />
     <ClInclude Include="..\NN\Net.h" />
-    <ClInclude Include="..\Resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Controller.cpp" />

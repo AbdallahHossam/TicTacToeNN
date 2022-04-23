@@ -30,12 +30,6 @@
     <ClInclude Include="..\Controller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\NN\FC.h">
       <Filter>Header Files\Model</Filter>
     </ClInclude>
